@@ -1,0 +1,269 @@
+﻿.pathway {
+	FONT-WEIGHT: bold
+}
+.breadcrumbs .pathway {
+	COLOR: #f00; FONT-WEIGHT: normal
+}
+#leftcolumn {
+	WIDTH: 150px;
+	FLOAT: left;
+	COLOR: #003560
+}
+#rahmenhauptnavi {
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 0.62em;
+	WIDTH: 9em;
+	PADDING-RIGHT: 0.62em;
+	PADDING-TOP: 0px
+}
+#rightcolumn {
+	WIDTH: 15em; FLOAT: left; COLOR: #003560
+}
+#marginalspalte {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0.62em; PADDING-RIGHT: 0.62em; FONT-SIZE: 0.75em; PADDING-TOP: 0px
+}
+#marginalspalte H3 {
+	PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LETTER-SPACING: 1px; COLOR: #8dae10; CLEAR: both; FONT-SIZE: 1.16em; BORDER-TOP: #8dae10 2px solid; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+#marginalspalte H4 {
+	PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LETTER-SPACING: 1px; COLOR: #8dae10; FONT-SIZE: 1.13em; BORDER-TOP: #8dae10 2px solid; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+#marginalspalte H5 {
+	PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 5px
+}
+#marginalspalte P {
+	LINE-HEIGHT: 150%; MARGIN-BOTTOM: 1em; COLOR: #003560; CLEAR: both
+}
+#marginalspalte UL {
+	LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0.5em; MARGIN-LEFT: 2px
+}
+#marginalspalte LI {
+	BACKGROUND-IMAGE: url(liste-gruen-klein.gif); LINE-HEIGHT: 150%; PADDING-LEFT: 0.75em; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; PADDING-TOP: 0.2em
+}
+#marginalspalte LI LI {
+	FONT-SIZE: 1em
+}
+#marginalspalte A:link {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; COLOR: #003560; BORDER-TOP: 0px; BORDER-RIGHT: 0px; TEXT-DECORATION: underline
+}
+#marginalspalte A:visited {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; COLOR: #003560; BORDER-TOP: 0px; BORDER-RIGHT: 0px; TEXT-DECORATION: underline
+}
+#marginalspalte A:hover {
+	TEXT-DECORATION: none
+}
+#content {
+	WIDTH: 30em; DISPLAY: inline; FLOAT: left; COLOR: #003560
+}
+#main {
+	MARGIN: 0px 20px; WIDTH: 680px; FONT-SIZE: 0.75em; BORDER-TOP: #003560 2px solid
+}
+#wrapper #bg-right #content #main .contentpaneopen tbody tr td table tr td a {
+	text-decoration: none;
+}
+
+#main2 {
+	MARGIN: 0px 20px; WIDTH: 440px; FONT-SIZE: 0.75em; BORDER-TOP: #003560 2px solid
+}
+.moduletable_menu {
+	MARGIN-BOTTOM: 20px
+}
+.componentheading {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0.62em; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; FONT-SIZE: 1.33em; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0.31em
+}
+.contentheading {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0.62em; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; FONT-SIZE: 1.33em; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0.31em
+}
+.buttonheading {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0.27em
+}
+.small {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 0.8em arial, helvetica, sans-serif; FLOAT: left; COLOR: #003560; BORDER-TOP: 0px; BORDER-RIGHT: 0px; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.createdate {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; TEXT-TRANSFORM: none; FONT: 0.8em arial, helvetica, sans-serif; FLOAT: left; COLOR: #003560; BORDER-TOP: 0px; BORDER-RIGHT: 0px; TEXT-DECORATION: none
+}
+.modifydate {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; TEXT-TRANSFORM: none; FONT: 0.75em arial, helvetica, sans-serif; FLOAT: left; COLOR: #003560; BORDER-TOP: 0px; BORDER-RIGHT: 0px; TEXT-DECORATION: none
+}
+.blog {
+	TEXT-TRANSFORM: none; LETTER-SPACING: normal; COLOR: #003560; FONT-WEIGHT: normal
+}
+.blog_more {
+	PADDING-BOTTOM: 0.62em; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; FONT-SIZE: 1.33em; PADDING-TOP: 0.31em
+}
+.blog_more UL {
+	PADDING-BOTTOM: 0.6em; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+.blogsection {
+	LINE-HEIGHT: 150%; TEXT-TRANSFORM: none; PADDING-LEFT: 1.5em; BACKGROUND: url(pfeil-gruen-weiss.gif) no-repeat left center; LETTER-SPACING: normal; COLOR: #003560; FONT-SIZE: 0.75em
+}
+.pagenav {
+	TEXT-TRANSFORM: none; LETTER-SPACING: normal; COLOR: #003560; FONT-WEIGHT: normal
+}
+.inputbox {
+	BORDER-BOTTOM: #666 1px solid; BORDER-LEFT: #666 1px solid; BACKGROUND: #ffffff; COLOR: #003560; BORDER-TOP: #666 1px solid; BORDER-RIGHT: #666 1px solid
+}
+.contentpane {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 150%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.contentpaneopen {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 150%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.contentpaneopen IMG {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.sectiontableheader {
+	PADDING-BOTTOM: 0.3em; BACKGROUND-COLOR: #e8efcf; MARGIN: 0px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px; COLOR: #003560; FONT-WEIGHT: bold; PADDING-TOP: 0.3em
+}
+.sectiontableentry1 {
+	PADDING-BOTTOM: 0.3em; LINE-HEIGHT: 150%; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 0.3em
+}
+.sectiontableentry2 {
+	PADDING-BOTTOM: 0.3em; LINE-HEIGHT: 150%; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 0.3em
+}
+.contentpaneopen P {
+	TEXT-ALIGN: justify; PADDING-BOTTOM: 0px; LINE-HEIGHT: 150%; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 0px
+}
+.contentpaneopen UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 0px
+}
+.contentpaneopen OL {
+	PADDING-BOTTOM: 1em;
+	LINE-HEIGHT: 150%;
+	PADDING-LEFT: 1em;
+	PADDING-RIGHT: 0px;
+	COLOR: #003560;
+	PADDING-TOP: 0px
+}
+.contentpaneopen DL {
+	PADDING-BOTTOM: 1em; LINE-HEIGHT: 150%; PADDING-LEFT: 1em; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 0px
+}
+.contentpaneopen DT {
+	FONT-WEIGHT: bold
+}
+.contentpaneopen DD {
+	PADDING-LEFT: 2em
+}
+.contentpaneopen UL LI {
+	BACKGROUND-IMAGE: url(pfeil-link-blau-listeinhalt.gif); TEXT-ALIGN: left; PADDING-LEFT: 1.2em; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; PADDING-TOP: 0.2em
+}
+.contentpaneopen H1 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0.62em; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; FONT-SIZE: 1.33em; BORDER-TOP: #003560 2px solid; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0.31em
+}
+.contentpaneopen H2 {
+	PADDING-BOTTOM: 0.62em; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; FONT-SIZE: 1.33em; PADDING-TOP: 0.31em
+}
+.contentpaneopen H3 {
+	PADDING-BOTTOM: 0.62em; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; FONT-SIZE: 1.16em; PADDING-TOP: 0.31em
+}
+.contentpaneopen H4 {
+	PADDING-BOTTOM: 0.62em; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 0.31em
+}
+.contentpaneopen H5 {
+	PADDING-BOTTOM: 0.62em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; PADDING-TOP: 0.31em
+}
+.contentpaneopen H6 {
+	PADDING-BOTTOM: 0.62em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #003560; FONT-WEIGHT: normal; PADDING-TOP: 0.31em
+}
+A:link {
+	COLOR: #00C
+}
+A:visited {
+	COLOR: #00F
+}
+A:hover {
+	COLOR: #8dae10
+}
+A.readon:link {
+	TEXT-ALIGN: left; PADDING-LEFT: 1.5em; BACKGROUND: url(pfeil-gruen-weiss.gif) no-repeat left center
+
+}
+A.readon:visited {
+	TEXT-ALIGN: left; PADDING-LEFT: 1.5em; BACKGROUND: url(pfeil-gruen-weiss.gif) no-repeat left center
+
+}
+#main UL A[href$='.pdf'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/pdf.gif) no-repeat right center
+}
+#main2 UL A[href$='.pdf'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/pdf.gif) no-repeat right center
+}
+#main UL A[href$='.doc'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main UL A[href$='.docx'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main2 UL A[href$='.doc'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main2 UL A[href$='.docx'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main UL A[href$='.xls'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main UL A[href$='.xlsx'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main2 UL A[href$='.xls'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main2 UL A[href$='.xlsx'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main UL A[href$='.zip'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/zip.gif) no-repeat right center
+}
+#main2 UL A[href$='.zip'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/zip.gif) no-repeat right center
+}
+#main UL A[href^='mailto:'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/mailtosw.gif) no-repeat right center
+}
+#main2 UL A[href^='mailto:'] {
+	LINE-HEIGHT: 150%; PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/mailtosw.gif) no-repeat right center
+}
+#main P A[href$='.pdf'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/pdf.gif) no-repeat right center
+}
+#main2 P A[href$='.pdf'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/pdf.gif) no-repeat right center
+}
+#main P A[href$='.doc'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main P A[href$='.docx'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main2 P A[href$='.doc'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main2 P A[href$='.docx'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/doc.gif) no-repeat right center
+}
+#main P A[href$='.xls'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main P A[href$='.xlsx'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main2 P A[href$='.xls'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main2 P A[href$='.xlsx'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/xls.gif) no-repeat right center
+}
+#main P A[href$='.zip'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/zip.gif) no-repeat right center
+}
+#main2 P A[href$='.zip'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/zip.gif) no-repeat right center
+}
+#main P A[href^='mailto:'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/mailtosw.gif) no-repeat right center
+}
+#main2 P A[href^='mailto:'] {
+	PADDING-RIGHT: 1.5em; BACKGROUND: url(../images/icons/mailtosw.gif) no-repeat right center
+}

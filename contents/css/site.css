@@ -1,0 +1,27 @@
+﻿body {
+}
+ .nav-a{
+        font-size: 18px;
+        padding: 10px 0px 10px 10px ;
+        color: black;
+
+
+    }
+
+
+  .nav-d{
+        font-size: 14px; 
+    }
+
+    .nav-s{
+        font-size: 14px;
+         padding: 0px 0px 1px 12px; 
+        margin-left: -120px;
+        display: block;
+        float: right;
+
+    }
+
+    .clearboth{
+        clear: both;
+    }
