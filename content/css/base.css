@@ -1,0 +1,361 @@
+
+        html, body, div, a, ul, li, img {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+              font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a { text-decoration: none;  color: #3184db;  }
+
+        .clearfix{ min-height: 0; }
+        .clearfix::before,.clearfix::after{ content: "";  display: table; border-collapse: collapse; }
+        .clearfix::after{ clear: both; }
+
+        /*
+          framework  start
+        */
+        #master {
+            margin: 0 auto;
+            width: 900px;
+            height: 700px;
+            background-color: #fff;
+        } 
+
+        /* head container*/
+        #head {
+            height: 100px;
+             
+
+        }
+
+            /* logo */
+            #head .headname {
+                height: 60px;
+                 
+            }
+
+                
+                #head .headname .sculogo{
+                      float: left;
+                    height: 80px;                 
+                           
+                    margin-top: 3px;
+                    margin-bottom: 5px;
+                    margin-right: 25px;
+                    padding: 0; 
+
+
+                }
+
+                #head .headname .ncrclogo{
+                     float: left;
+                    height: 55px;
+                    
+                           
+                    margin-top: 13px;
+                    margin-bottom: 5px;
+                    margin-right: 25px;
+                    padding: 0; 
+
+                }
+
+               
+
+                #head .headname .title {
+                    float: left;
+                    padding-top: 33px;
+                    padding-left: 30px;
+                    font-size: 18px;
+                    height: 50px;
+                    width: 60%;
+
+                      background: url(../../content/imgs/title.png) no-repeat 0px 30px  ; 
+                      background-size:40% 60%;
+                }
+
+
+            /* navigation */
+            #head .nav {
+                height: 40px;
+                
+                background-color: #3184db;
+
+            }
+
+
+                #head .nav ul {
+                    margin-left: 79px;
+                    list-style: none;
+                }
+
+                    #head .nav ul li {
+                        float: left;
+                        display: block;
+                        padding: 11px 30px;
+                      
+                        font-size: 16px;
+                         
+                    }
+
+                      #head .nav .bar{
+                        padding: 11px 0;
+                        margin: 0;
+                        color: #e5e5e5;
+                      }
+
+        .local {
+            background-color: #049ff1;
+            
+        }
+
+
+
+
+
+        #head .nav ul li:hover {
+            background-color: #049ff1;
+            
+             
+        }
+
+
+
+        #head .nav ul li a {
+            color: #fff;
+
+        }
+
+
+        /* content container */
+        #mcontent {
+            height: 550px;
+              padding:10px;
+        }
+
+        #mcontent .intro{
+            padding:1px 50px;
+        }
+
+
+        #mcontent .intro .limg{
+            width: 300px;
+            height: 180px;
+        }
+
+         #mcontent .intro .rimg{
+            height: 180px;
+             
+        }
+
+        #mcontent .intro p{
+            text-align: justify;
+        }
+
+         #mcontent .intro ul {
+             list-style:decimal;
+             padding-left:40px;
+        }
+          #mcontent .intro ul li{
+              margin:5px;
+
+        }
+
+
+
+        /*footer container */
+        #footer {
+            height: 50px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+
+        .clearboth {
+            clear: both;
+        }
+
+
+        /*            framework  end        */
+
+
+
+
+/* gorup.html child start */ 
+
+ /* content container */
+        #groupcontent {
+              padding:10px;
+        }
+
+            #groupcontent .group {
+            }
+
+                #groupcontent .group ul {
+                    list-style: none;
+                }
+
+                    #groupcontent .group ul li {
+                        display: block;
+                        margin: 10px 5px;
+                    }
+
+                        #groupcontent .group ul li .people li {
+                            float: left;
+                            width: 300px;
+                        }
+
+                        #groupcontent .group ul li a {
+                            font-size: 16px;
+                        }
+/* gorup.html child end */ 
+
+
+/*  about.html child start   */
+ /* content container */
+        #aboutcontent {
+            height: 550px;
+              padding:10px;
+        }
+
+            #aboutcontent .about {
+                padding:20px 100px 10px 100px;
+            }
+
+                #aboutcontent .about ul {
+                    list-style: none;
+                }
+
+                    #aboutcontent .about ul li {
+                        margin: 10px;
+                    }
+
+/*  about.html child start   */
+
+
+/* publications.html child start */
+
+
+
+ /* content container */
+         
+
+       #pubcontent {
+            position: relative;
+            padding:10px;
+        }
+
+           #leftbar {
+                position: fixed;
+                top: 160px;
+                float: left;
+                width: 170px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+
+            #leftbar ul {
+                    list-style: none;
+                    margin:25px 0px;
+                }
+
+            #leftbar ul li {
+
+                    }
+
+            #leftbar ul li a {
+                            display: block;
+                            padding: 5px 5px 5px 15px;
+                            color: #555;
+                        }
+
+            #leftbar ul li a:hover {
+                                background-color: #777;
+                            }
+
+
+            #rightbar {
+                margin-left: 201px;
+            }
+
+
+             
+         
+
+        .lst-ol li p span {
+            font-family: SimHei;
+            font-size: 16px;
+        }
+
+        .lst-ol li {
+            margin: 5px 0px;
+            text-align: justify;
+        }
+
+        ol {
+            margin-left: 15px;
+        }
+/* publications.html child end */
+
+
+
+/* htang.html child start */
+
+ /* content container */
+        #mcontent {
+            height: 580px;
+        }
+
+        #content {
+            position: relative;
+              padding:10px;
+        }
+
+            
+
+        
+
+
+        /* items for info  */
+        .items {
+            border-bottom: 1px solid #ccc;
+        }
+
+            .items .htang {
+                margin-left: 240px;
+            }
+
+                .items .htang ul {
+                    list-style: disc;
+                }
+
+                    .items .htang ul li {
+                        margin: 7px 2px;
+                    }
+
+        .pcontent {
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .lst-dl dt {
+            float: left;
+            padding: 2px;
+        }
+
+        .lst-dl dd {
+            padding: 2px;
+            margin-left: 130px;
+        }
+
+       
+        
+
+/* htang.html child end */
+
+
+
+
+
