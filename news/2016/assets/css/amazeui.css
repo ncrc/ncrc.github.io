@@ -6909,7 +6909,7 @@ a.am-close:hover {
 }
 .am-list-item-text {
   line-height: 1.4;
-  font-size: 1.3rem;
+  /*font-size: 1.3rem;*/
   color: #999999;
   margin: 0;
 }
@@ -11895,6 +11895,10 @@ tbody.am-collapse.am-in {
   margin-top: 0.5rem;
   color: #757575;
 }
+.am-list-news-default .am-list .am-list-item-desced .am-list-item-text2 {
+  margin-top: 0.5rem;
+  color: #757575;
+}
 .am-list-news-default .am-list .am-list-item-text {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -11904,6 +11908,16 @@ tbody.am-collapse.am-in {
   -webkit-line-clamp: 2;
   /* number of lines to show */
   max-height: 2.6em;
+}
+.am-list-news-default .am-list .am-list-item-text2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*display: -webkit-box;*/
+  -webkit-box-orient: vertical;
+  line-height: 1.3em;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  /*max-height: 2.6em;*/
 }
 .am-list-news-default .am-list .am-list-item-thumb-top .am-list-thumb {
   padding: 0;
